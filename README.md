@@ -1,6 +1,6 @@
 # Exercise 03 — Website Review Form
 
-[Live demo ↗](https://vigneshsrinivasan-sys.github.io/exercise-03-website-review-form/) · [HTML source](index.html)
+[Live demo](https://vigneshsrinivasan-sys.github.io/exercise-03-website-review-form/) · [HTML source](index.html)
 
 ![Rendered preview](preview.png)
 
