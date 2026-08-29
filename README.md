@@ -1,6 +1,6 @@
 # Exercise 03 — Website Review Form
 
-[Live demo](https://vigneshsrinivasan-sys.github.io/exercise-03-website-review-form/) · [View source](https://github.com/vigneshsrinivasan-sys/exercise-03-website-review-form)
+[Live demo ↗](https://vigneshsrinivasan-sys.github.io/exercise-03-website-review-form/) · [HTML source](index.html)
 
 ![Rendered preview](preview.png)
 
@@ -25,4 +25,3 @@ The review flow brings together labels, required fields, email input, textarea, 
 ## Sequence
 
 **Exercise 03 of 27** · Independent practice
-
