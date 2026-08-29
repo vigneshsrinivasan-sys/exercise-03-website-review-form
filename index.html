@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 03 — Website Review Form</title>
+</head>
+<body>
+    <main>
+        <h1>Website Review Form</h1>
+        <form action="#">
+            <div>
+                <article>
+                    <Label for="firstname">First Name:</Label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required>
+                </article>
+                <article>
+                    <Label for="lastname">Last Name:</Label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required>
+                </article>
+            </div>
+            <hr>
+            <div>
+                <article>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </article>
+            </div>
+            <hr>
+            <div>
+                <article>
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" placeholder="Please leave your thoughts on the product" cols="30" rows="10" required></textarea>
+                </article>
+            </div>
+            <hr>
+            <fieldset>
+                <h2>Feedback</h2>
+                <label for="ui">UI</label>
+                <input type="checkbox" name="ui" id="ui">
+                <label for="speed">Speed</label>
+                <input type="checkbox" name="speed" id="speed">
+                <label for="content">Content</label>
+                <input type="checkbox" name="content" id="content">
+            </fieldset>
+            <fieldset>
+                <h2>How Did You Hear About Us?</h2>
+                <select name="select" id="select" required>
+                    <option value="socialmedia">Social Media (Instagram, YouTube, etc.)</option>
+                    <option value="onlinead">Online Ad (Google, Facebook, etc.)</option>
+                    <option value="friend/family">Friend or Family Recommendation</option>
+                    <option value="blog/article">Blog or Article Mention</option>
+                    <option value="instore/retail">In-Store or Retail Location</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <h2>Please Rate Your Experience</h2>
+                <input type="radio" name="rating" id="rating1" value="1" required>
+                <label for="rating1">1</label>
+                <input type="radio" name="rating" id="rating2" value="2">
+                <label for="rating2">2</label>
+                <input type="radio" name="rating" id="rating3" value="3">
+                <label for="rating3">3</label>
+                <input type="radio" name="rating" id="rating4" value="4">
+                <label for="rating4">4</label>
+                <input type="radio" name="rating" id="rating5" value="5">
+                <label for="rating5">5</label>
+            </fieldset>
+            <button>Submit</button> 
+        </form>
+    </main>
+</body>
+</html>
