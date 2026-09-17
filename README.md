@@ -24,4 +24,4 @@ The review flow brings together labels, required fields, email input, textarea, 
 
 ## Sequence
 
-**Exercise 03 of 27** · Independent practice
+**Exercise 03** · Independent practice
